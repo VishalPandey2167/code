@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  
+ <style>
+    html{
+        height: 3000px;
+    }
+  #back{
+    background-color:black;
+    width: 100%;
+    z-index: -1;
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    position:fixed;
+  }  
+
+  #nav{
+    z-index: 200;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-left: 650px;
+    margin-top: 8px;
+  }
+
+  #nav>div{
+    color: aliceblue;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: grab;
+  }
+
+  #nav>div:hover{
+    color:hotpink;
+  }
+
+  #hd{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-family: cursive;
+    position:fixed;
+  }
+
+  #down{
+    font-size: 100px;
+    z-index: -1;
+    position: absolute;
+    margin-top: 1000px;
+  }
+
+ </style>   
+
+</head>
+<body>
+    <div id="hd">Krunch</div>
+    <div id="back"></div>
+    <div id="nav">
+        <div>HOME</div>
+        <div>ABOUT</div>
+        <div>PORTFOLIO</div>
+        <div>SERVICES</div>
+        <div>TEAM</div>
+        <div>BLOG</div>
+        <div>CONTACT</div>
+    </div>
+
+    <div id="down"> Vishal </div>
+
+</body>
+</html>
